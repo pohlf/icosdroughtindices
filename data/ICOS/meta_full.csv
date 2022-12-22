@@ -1,0 +1,102 @@
+File,name,Landing,ID,site,WW20,ICOS,lat,lon,Country,start_year,elevation,climate,ecosystem,MAT.x,MAT.y,MAP.y,MAP.x,MASW,slope,long_name,network,comment
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_UK-AMo,74,UK-AMo,no,yes,55.7925,-3.2436,,,,,,,,,,,,,,
+FLX_SE-Svb_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/XWNX-9FWC,https:/meta.icos-cp.eu/resources/stations/ES_SE-Svb,51,SE-Svb,yes,yes,64.2561,19.7745,SE,2014,267,NA,ENF,NA,1.8,614,NA,NA,significant,Svartberget,ICOS_2,boreal forest
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_SE-Sto,75,SE-Sto,no,yes,68.3559,19.0452,,,,,,,,,,,,,,
+FLX_SE-Ros_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/RJ1S-CC2Z,https://meta.icos-cp.eu/resources/stations/FLUXNET_SE-Ros,50,SE-Ros,yes,no,64.1725,19.738,SE,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_SE-Nor_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/87R1-0HRM,https:/meta.icos-cp.eu/resources/stations/ES_SE-Nor,49,SE-Nor,yes,yes,60.0865,17.4795,SE,2014,45,NA,ENF,NA,5.7,544,NA,NA,gentle,Norunda,ICOS_2,"dominated by Norway spruce & Scots pine, some birch trees"
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_SE-Myc,76,SE-Myc,no,yes,58.365,12.1694,,,,,,,,,,,,,,
+FLX_SE-Htm_FLUXNET2015_FULLSET_2015-2020_beta-3.zip,10.18160/HQJA-PCXX,https:/meta.icos-cp.eu/resources/stations/ES_SE-Htm,48,SE-Htm,yes,yes,56.0976,13.419,SE,2015,115,NA,ENF,NA,7.4,707,NA,NA,gentle,Hyltemossa,ICOS_2,"dominated by Picea abies, some Betula spp."
+FLX_SE-Deg_FLUXNET2015_FULLSET_2001-2020_beta-3.zip,10.18160/MJNM-N9F8,https:/meta.icos-cp.eu/resources/stations/ES_SE-Deg,8,SE-Deg,yes,yes,64.182,19.5565,SE,2001,270,NA,WET,NA,1.2,523,NA,NA,flat,Degerö,ICOS_2,Sphagnum moss
+FLX_RU-Fyo_FLUXNET2015_FULLSET_1998-2020_beta-3.zip,10.18160/XMER-D4NR,https://meta.icos-cp.eu/resources/stations/FLUXNET_RU-Fyo,47,RU-Fyo,yes,no,56.4615,32.9221,RU,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_RU-Fy2_FLUXNET2015_FULLSET_2015-2020_beta-3.zip,10.18160/WK2C-VM7N,https:/meta.icos-cp.eu/resources/stations/ES_RU-Fy2,46,RU-Fy2,yes,yes,56.4476,32.9019,RU,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_NO-Hur,77,NO-Hur,no,yes,60.3724,11.0781,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_NL-Loo,78,NL-Loo,no,yes,52.1666,5.7436,,,,,,,,,,,,,,
+FLX_IT-Tor_FLUXNET2015_FULLSET_2008-2020_beta-3.zip,10.18160/9J7C-Q5QP,https:/meta.icos-cp.eu/resources/stations/ES_IT-Tor,29,IT-Tor,yes,yes,45.8444,7.5781,IT,2008,2168,NA,GRA,NA,2.9,920,NA,NA,gentle,Torgnon,ICOS_a.,mostly Nardus stricta
+FLX_IT-SR2_FLUXNET2015_FULLSET_2013-2020_beta-3.zip,10.18160/EPYB-PSFM,https:/meta.icos-cp.eu/resources/stations/ES_IT-SR2,45,IT-SR2,yes,yes,43.732,10.2909,IT,2013,4,NA,ENF,NA,14.2,920,NA,NA,flat,San Rossore 2,ICOS_2,"mostly stone pine, dense"
+FLX_IT-Ren_FLUXNET2015_FULLSET_1999-2020_beta-3.zip,10.18160/WMCA-8P4P,https:/meta.icos-cp.eu/resources/stations/ES_IT-Ren,44,IT-Ren,yes,yes,46.5869,11.4337,IT,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_IT-PCm,79,IT-PCm,no,yes,40.8741,14.2504,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_IT-Noe,80,IT-Noe,no,yes,40.6062,8.1517,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_IT-Niv,81,IT-Niv,no,yes,45.4909,7.1394,,,,,,,,,,,,,,
+FLX_IT-MBo_FLUXNET2015_FULLSET_2003-2020_beta-3.zip,10.18160/G9KE-399C,https:/meta.icos-cp.eu/resources/stations/ES_IT-MBo,28,IT-MBo,yes,yes,46.0147,11.0458,IT,NA,NA,NA,GRA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_IT-Lsn_FLUXNET2015_FULLSET_2016-2020_beta-3.zip,10.18160/4SJH-8T5D,https:/meta.icos-cp.eu/resources/stations/ES_IT-Lsn,15,IT-Lsn,yes,yes,45.7405,12.7503,IT,2016,1,NA,OSH,NA,13,1100,NA,NA,medium,Lison,ICOS_a.,vineyard
+FLX_IT-Lav_FLUXNET2015_FULLSET_2003-2020_beta-3.zip,10.18160/HZSQ-G19C,https:/meta.icos-cp.eu/resources/stations/FLUXNET_IT-Lav,43,IT-Lav,yes,no,45.9562,11.2813,IT,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_IT-Cp2_FLUXNET2015_FULLSET_2012-2020_beta-3.zip,10.18160/WSAC-6XY6,https:/meta.icos-cp.eu/resources/stations/ES_IT-Cp2,20,IT-Cp2,yes,yes,41.7043,12.3573,IT,2012,19,NA,MF,NA,15.2,805,NA,NA,flat,Castelporziano2,ICOS_1,"only holm oak, nature reserve"
+FLX_IT-BFt_FLUXNET2015_FULLSET_2019-2020_beta-3.zip,10.18160/M6XJ-Q0B3,https:/meta.icos-cp.eu/resources/stations/ES_IT-BFt,61,IT-BFt,yes,yes,45.1978,10.742,IT,NA,NA,NA,DBF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_IT-BCi_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/D04G-HQB2,https:/meta.icos-cp.eu/resources/stations/ES_IT-BCi,73,IT-BCi,yes,yes,40.5237,14.9574,IT,2004,20,NA,CRO,NA,18,600,NA,NA,medium,Borgo Cioffi,ICOS_1,agro-ecosystem (buffalos & corn)
+FLX_IE-Cra_FLUXNET2015_FULLSET_2020-2020_beta-3.zip,10.18160/4EEY-EZSZ,https:/meta.icos-cp.eu/resources/stations/FLUXNET_IE-Cra,6,IE-Cra,yes,no,53.323,-7.6418,IE,NA,NA,NA,WET,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_FR-Tou_FLUXNET2015_FULLSET_2018-2020_beta-3.zip,10.18160/6KQG-97TD,https:/meta.icos-cp.eu/resources/stations/ES_FR-Tou,27,FR-Tou,yes,yes,43.5729,1.3747,FR,2018,158,NA,GRA,NA,14.1,544,NA,NA,flat,Toulouse,ICOS_a.,grassland cut at least once a year
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FR-Pue,82,FR-Pue,no,yes,43.7413,3.5957,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FR-MsS,83,FR-MsS,no,yes,48.5382,5.3119,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FR-Mej,84,FR-Mej,no,yes,48.1184,-1.7964,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FR-Lus,85,FR-Lus,no,yes,46.4142,0.1207,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FR-Lqu,86,FR-Lqu,no,yes,45.6444,2.7349,,,,,,,,,,,,,,
+FLX_FR-LGt_FLUXNET2015_FULLSET_2017-2020_beta-3.zip,10.18160/C2VY-5R8V,https:/meta.icos-cp.eu/resources/stations/ES_FR-LGt,5,FR-LGt,yes,yes,47.3229,2.2841,FR,2018,153,NA,WET,NA,12.3,700,NA,NA,gentle,La Guette,ICOS_a.,degradated peatland
+FLX_FR-Lam_FLUXNET2015_FULLSET_2005-2020_beta-3.zip,10.18160/D86P-B2W5,https:/meta.icos-cp.eu/resources/stations/ES_FR-Lam,72,FR-Lam,yes,yes,43.4964,1.2379,FR,2020,181,NA,CRO,NA,13.4,677,NA,NA,flat,Lamasquere,ICOS_1,rotation: maize - winter wheat
+FLX_FR-Hes_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/GFQX-22T7,https:/meta.icos-cp.eu/resources/stations/ES_FR-Hes,60,FR-Hes,yes,yes,48.6741,7.0647,FR,2014,310,NA,DBF,NA,10,889,NA,NA,medium,Hesse,ICOS_1,"beech forest, natural regeneration"
+FLX_FR-Gri_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/8XJC-HT7V,https:/meta.icos-cp.eu/resources/stations/ES_FR-Gri,71,FR-Gri,yes,yes,48.8442,1.9519,FR,NA,NA,NA,CRO,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_FR-Fon_FLUXNET2015_FULLSET_2005-2020_beta-3.zip,10.18160/X1J0-H684,https:/meta.icos-cp.eu/resources/stations/ES_FR-Fon,59,FR-Fon,yes,yes,48.4764,2.7801,FR,2019,103,NA,DBF,NA,11.4,679,NA,NA,gentle,Fontainebleau-Barbeau,ICOS_1,dominated by Quercus petraea Liebl. and Quercus robur L.
+FLX_FR-FBn_FLUXNET2015_FULLSET_2008-2020_beta-3.zip,10.18160/KGN6-K1CX,https:/meta.icos-cp.eu/resources/stations/ES_FR-FBn,19,FR-FBn,yes,yes,43.2408,5.6787,FR,NA,NA,NA,MF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FR-EM2,87,FR-EM2,no,yes,49.8721,3.0207,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FR-CLt,88,FR-CLt,no,yes,45.0414,6.4105,,,,,,,,,,,,,,
+FLX_FR-Bil_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/MSRT-T1YA,https:/meta.icos-cp.eu/resources/stations/ES_FR-Bil,42,FR-Bil,yes,yes,44.4937,-0.9561,FR,2014,39,NA,ENF,NA,12.9,960.1,NA,NA,flat,Bilos,ICOS_2,"managed pine forest plantation, root depth limited by soil"
+FLX_FR-Aur_FLUXNET2015_FULLSET_2005-2020_beta-3.zip,10.18160/BGS5-0X3J,https:/meta.icos-cp.eu/resources/stations/ES_FR-Aur,70,FR-Aur,yes,yes,43.5497,1.1061,FR,NA,NA,NA,CRO,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_FI-Var_FLUXNET2015_FULLSET_2016-2020_beta-3.zip,10.18160/0WR7-EQDP,https:/meta.icos-cp.eu/resources/stations/ES_FI-Var,41,FI-Var,yes,yes,67.7549,29.61,FI,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FI-Sod,89,FI-Sod,no,yes,67.3624,26.6386,,,,,,,,,,,,,,
+FLX_FI-Sii_FLUXNET2015_FULLSET_2016-2020_beta-3.zip,10.18160/7V27-CH6X,https:/meta.icos-cp.eu/resources/stations/ES_FI-Sii,4,FI-Sii,yes,yes,61.8327,24.1929,FI,2016,160,NA,WET,NA,3.5,711,NA,NA,flat,Siikaneva,ICOS_2,"Sedges, continuous Sphagnum moss cover, dwarf shrubs"
+FLX_FI-Qvd_FLUXNET2015_FULLSET_2018-2020_beta-3.zip,10.18160/T08C-4J0P,https:/meta.icos-cp.eu/resources/stations/ES_FI-Qvd,69,FI-Qvd,yes,yes,60.2952,22.3916,FI,NA,NA,NA,CRO,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FI-Lom,90,FI-Lom,no,yes,67.9972,24.2092,,,,,,,,,,,,,,
+FLX_FI-Let_FLUXNET2015_FULLSET_2009-2020_beta-3.zip,10.18160/3H0F-M9SE,https:/meta.icos-cp.eu/resources/stations/ES_FI-Let,40,FI-Let,yes,yes,60.6418,23.9595,FI,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FI-Kvr,91,FI-Kvr,no,yes,61.8466,24.2804,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_FI-Kmp,92,FI-Kmp,no,yes,60.2029,24.9611,,,,,,,,,,,,,,
+FLX_FI-Ken_FLUXNET2015_FULLSET_2018-2020_beta-3.zip,10.18160/W8QV-2Z04,https:/meta.icos-cp.eu/resources/stations/ES_FI-Ken,39,FI-Ken,yes,yes,67.9872,24.2431,FI,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_FI-Hyy_FLUXNET2015_FULLSET_1996-2020_beta-3.zip,10.18160/XTBV-XCJV,https:/meta.icos-cp.eu/resources/stations/ES_FI-Hyy,38,FI-Hyy,yes,yes,61.8474,24.2948,FI,1996,181,NA,ENF,NA,3.5,711,NA,NA,gentle,Hyytiala,ICOS_1,homogenous Scots pine stand
+FLX_ES-LM2_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/G6H4-6AY6,https:/meta.icos-cp.eu/resources/stations/ES_ES-LM2,12,ES-LM2,yes,yes,39.9346,-5.7759,ES,2014,NA,NA,SAV,NA,16,700,NA,NA,flat,Majadas del Tietar South,none,"extensive mgmt (grazing), N(itrogen) added"
+FLX_ES-LM1_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/J5YA-QZR1,https:/meta.icos-cp.eu/resources/stations/ES_ES-LM1,11,ES-LM1,yes,yes,39.9427,-5.7787,ES,2014,NA,NA,SAV,NA,16,700,NA,NA,undulated,Majadas del Tietar North,none,"extensive mgmt, N & P added"
+FLX_ES-LJu_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/04BF-3AFE,https:/meta.icos-cp.eu/resources/stations/ES_ES-LJu,14,ES-LJu,yes,yes,36.9266,-2.7521,ES,NA,NA,NA,OSH,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_ES-Cnd_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/CE89-PV14,https:/meta.icos-cp.eu/resources/stations/ES_ES-Cnd,1,ES-Cnd,yes,yes,37.915,-3.2277,ES,NA,NA,NA,WSA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_ES-Agu_FLUXNET2015_FULLSET_2006-2020_beta-3.zip,10.18160/3V53-5P08,https:/meta.icos-cp.eu/resources/stations/ES_ES-Agu,13,ES-Agu,yes,yes,36.94,-2.0332,ES,NA,NA,NA,OSH,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_ES-Abr_FLUXNET2015_FULLSET_2015-2020_beta-3.zip,10.18160/BWYS-J050,https:/meta.icos-cp.eu/resources/stations/ES_ES-Abr,10,ES-Abr,yes,yes,38.7018,-6.7859,ES,2015,NA,NA,SAV,NA,18.3,400,NA,NA,flat,Albuera,none,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DK-Vng,93,DK-Vng,no,yes,56.0375,9.1607,,,,,,,,,,,,,,
+FLX_DK-Sor_FLUXNET2015_FULLSET_1996-2020_beta-3.zip,10.18160/X4DF-R4S2,https:/meta.icos-cp.eu/resources/stations/ES_DK-Sor,58,DK-Sor,yes,yes,55.4859,11.6446,DK,NA,NA,NA,DBF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DK-Skj,94,DK-Skj,no,yes,55.9127,8.4048,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DK-RCW,95,DK-RCW,no,yes,55.6807,12.1014,,,,,,,,,,,,,,
+FLX_DK-Gds_FLUXNET2015_FULLSET_2020-2020_beta-3.zip,10.18160/DMM6-H3V2,https:/meta.icos-cp.eu/resources/stations/ES_DK-Gds,37,DK-Gds,yes,yes,56.0737,9.3341,DK,2020,86,NA,ENF,NA,8.3,883,NA,NA,flat,Gludsted Plantage,ICOS_a.,"largest spruce plantation in DK, high yield mgmt and young stands"
+FLX_DE-Tha_FLUXNET2015_FULLSET_1996-2020_beta-3.zip,10.18160/8FBV-1K18,https:/meta.icos-cp.eu/resources/stations/ES_DE-Tha,36,DE-Tha,yes,yes,50.9626,13.5651,DE,1996,385,NA,ENF,NA,8.2,843,NA,NA,gentle,FI-SiiTharandt,ICOS_1,mostly norway spruce
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-SfN,96,DE-SfN,no,yes,47.8064,11.3275,,,,,,,,,,,,,,
+FLX_DE-RuW_FLUXNET2015_FULLSET_2012-2020_beta-3.zip,10.18160/JX9W-FBEJ,https:/meta.icos-cp.eu/resources/stations/ES_DE-RuW,35,DE-RuW,yes,yes,50.5049,6.331,DE,NA,NA,NA,ENF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_DE-RuS_FLUXNET2015_FULLSET_2011-2020_beta-3.zip,10.18160/BS3C-CVQ0,https:/meta.icos-cp.eu/resources/stations/ES_DE-RuS,68,DE-RuS,yes,yes,50.8659,6.4472,DE,2011,103,NA,CRO,NA,10,700,NA,NA,flat,Selhausen Juelich,ICOS_1,
+FLX_DE-RuR_FLUXNET2015_FULLSET_2011-2020_beta-3.zip,10.18160/Q02V-HAN4,https:/meta.icos-cp.eu/resources/stations/ES_DE-RuR,26,DE-RuR,yes,yes,50.6219,6.3041,DE,2011,515,NA,GRA,NA,7.7,1033,NA,NA,medium,Rollesbroich,ICOS_a.,mostly Ranunculus repens-Alopecurus pratensis community
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-Okd,97,DE-Okd,no,yes,53.4126,9.0925,,,,,,,,,,,,,,
+FLX_DE-Obe_FLUXNET2015_FULLSET_2008-2020_beta-3.zip,10.18160/05Y0-QP67,https:/meta.icos-cp.eu/resources/stations/ES_DE-Obe,34,DE-Obe,yes,yes,50.7867,13.7213,DE,2008,734,NA,ENF,NA,5.5,996,NA,NA,significant,Oberbärenburg,CarboEurope,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-Msr,98,DE-Msr,no,yes,47.8092,11.4562,,,,,,,,,,,,,,
+FLX_DE-Kli_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/76VR-FWJ6,https:/meta.icos-cp.eu/resources/stations/ES_DE-Kli,67,DE-Kli,yes,yes,50.8931,13.5224,DE,2004,478,NA,CRO,NA,7.6,842,NA,NA,flat,Klingenberg,ICOS_a.,"intesive farmland, 5-year crop rotation"
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-Kie,99,DE-Kie,no,yes,52.9734,13.6439,,,,,,,,,,,,,,
+FLX_DE-Hzd_FLUXNET2015_FULLSET_2010-2020_beta-3.zip,10.18160/GBJS-Y2FT,https:/meta.icos-cp.eu/resources/stations/ES_DE-Hzd,57,DE-Hzd,yes,yes,50.9638,13.4898,DE,2010,395,NA,DBF,NA,7.8,901,NA,NA,medium,Hetzdorf,ICOS_a.,
+FLX_DE-HoH_FLUXNET2015_FULLSET_2015-2020_beta-3.zip,10.18160/RRBD-7EME,https:/meta.icos-cp.eu/resources/stations/ES_DE-HoH,56,DE-HoH,yes,yes,52.0866,11.2224,DE,2015,193,NA,DBF,NA,9.1,563,NA,NA,flat,Hohes Holz,ICOS_1,"alluvial forest, mostly beech & oak"
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-Har,100,DE-Har,no,yes,47.933,7.5981,,,,,,,,,,,,,,
+FLX_DE-Hai_FLUXNET2015_FULLSET_2000-2020_beta-3.zip,10.18160/CR66-PJ24,https:/meta.icos-cp.eu/resources/stations/ES_DE-Hai,55,DE-Hai,yes,yes,51.0794,10.4521,DE,2000,438,NA,DBF,NA,8.34,744,NA,NA,gentle,Hainich,ICOS_a.,"protected old-growth forest, mostly beech & ash"
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-Gwg,101,DE-Gwg,no,yes,47.5708,11.0326,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-GsB,102,DE-GsB,no,yes,52.0296,11.1048,,,,,,,,,,,,,,
+FLX_DE-Gri_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/A4NW-3VE1,https:/meta.icos-cp.eu/resources/stations/ES_DE-Gri,25,DE-Gri,yes,yes,50.95,13.5126,DE,2004,385,NA,GRA,NA,7.8,901,NA,NA,flat,Grillenburg,ICOS_a.,extensive mgmt
+FLX_DE-Geb_FLUXNET2015_FULLSET_2001-2020_beta-3.zip,10.18160/KVAC-KYEX,https:/meta.icos-cp.eu/resources/stations/ES_DE-Geb,66,DE-Geb,yes,yes,51.0997,10.9146,DE,2001,162,NA,CRO,NA,8.5,470,NA,NA,flat,Gebesee,ICOS_1,crop rotation
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-Fen,103,DE-Fen,no,yes,47.8329,11.0606,,,,,,,,,,,,,,
+NA,NA,http://meta.icos-cp.eu/resources/stations/ES_DE-Brs,104,DE-Brs,no,yes,52.2966,10.4487,,,,,,,,,,,,,,
+FLX_DE-Akm_FLUXNET2015_FULLSET_2009-2020_beta-3.zip,10.18160/5ZKC-H1RR,https:/meta.icos-cp.eu/resources/stations/ES_DE-Akm,3,DE-Akm,yes,yes,53.8662,13.6834,DE,2009,-1,NA,WET,NA,8.7,558,NA,NA,flat,Anklam,none,Peene valley fen
+FLX_CZ-wet_FLUXNET2015_FULLSET_2006-2020_beta-3.zip,10.18160/ZHF2-E96G,https:/meta.icos-cp.eu/resources/stations/ES_CZ-wet,2,CZ-wet,yes,yes,49.0247,14.7704,CZ,2006,426,NA,WET,NA,7.7,604,NA,NA,flat,Trebon,ICOS_a.,"inundation area, sedges and wetland grasses"
+FLX_CZ-Stn_FLUXNET2015_FULLSET_2010-2020_beta-3.zip,10.18160/0JY0-ZCD6,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CZ-Stn,54,CZ-Stn,yes,no,49.036,17.9699,CZ,2010,540,NA,DBF,NA,8.7,685,NA,NA,significant,Stitna,CzeCOS,mature beech forest
+FLX_CZ-RAJ_FLUXNET2015_FULLSET_2012-2020_beta-3.zip,10.18160/AAYD-C9FK,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CZ-RAJ,33,CZ-RAJ,yes,no,49.4437,16.6965,CZ,2012,625,NA,ENF,NA,7.1,681,NA,NA,medium,Rajec,CzeCOS,old-growth spruce monoculture (being transformed to near-natural forest)
+FLX_CZ-Lnz_FLUXNET2015_FULLSET_2015-2020_beta-3.zip,10.18160/4HZC-4JSG,https:/meta.icos-cp.eu/resources/stations/ES_CZ-Lnz,18,CZ-Lnz,yes,yes,48.6816,16.9463,CZ,2015,150,NA,MF,9.804,9.3,550,518.03,NA,flat,Lanzhot,ICOS_1,"hard-wood floodplain forest, species-rich"
+FLX_CZ-KrP_FLUXNET2015_FULLSET_2014-2020_beta-3.zip,10.18160/9A8S-EJVK,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CZ-KrP,65,CZ-KrP,yes,no,49.5733,15.0788,CZ,NA,534,NA,CRO,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_CZ-BK1_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/2X51-1SD0,https:/meta.icos-cp.eu/resources/stations/ES_CZ-BK1,32,CZ-BK1,yes,yes,49.5021,18.5369,CZ,2004,875,NA,ENF,6.29,6.7,1316,1338.12,145.1,strong,Bily Kriz forest,ICOS_2,99% norway spruce
+FLX_CH-Oe2_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/1Y8J-NKQ3,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CH-Oe2,64,CH-Oe2,yes,no,47.2864,7.7337,CH,2004,452,NA,CRO,NA,9.8,1155,NA,NA,flat,Oensingen 2,CarboEurope,intensive crop rotation
+FLX_CH-Lae_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/51Z6-S5XF,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CH-Lae,17,CH-Lae,yes,no,47.4783,8.3644,CH,2004,689,NA,MF,NA,8.3,1100,NA,NA,strong,Lägeren,CarboEurope,"diverse, managed forest, dominated by beech & fir"
+FLX_CH-Fru_FLUXNET2015_FULLSET_2005-2020_beta-3.zip,10.18160/4SAX-0ZYA,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CH-Fru,24,CH-Fru,yes,no,47.1158,8.5378,CH,2005,982,NA,GRA,NA,7.2,1651,NA,NA,hilltop,Früebüel,CarboExtreme,"moderately intensive mgmt (2 cuts/y, grazing in fall)"
+FLX_CH-Dav_FLUXNET2015_FULLSET_1997-2020_beta-3.zip,10.18160/1JA9-VJEV,https:/meta.icos-cp.eu/resources/stations/ES_CH-Dav,31,CH-Dav,yes,yes,46.8153,9.8559,CH,1997,1639,Subacrtic (Dfc),ENF,4.1,2.8,1062,833,151,significant,Davos,ICOS_1,"mostly norway spruce (LAI ~3.9, little thinning)"
+FLX_CH-Cha_FLUXNET2015_FULLSET_2005-2020_beta-3.zip,10.18160/V5RX-VAWY,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CH-Cha,23,CH-Cha,yes,no,47.2102,8.4104,CH,2005,393,NA,GRA,NA,9.5,1136,NA,NA,flat,Chamau,CarboExtreme,intesive mgmt (6 cuts/y)
+FLX_CH-Aws_FLUXNET2015_FULLSET_2006-2020_beta-3.zip,10.18160/ASYZ-4T3X,https:/meta.icos-cp.eu/resources/stations/FLUXNET_CH-Aws,22,CH-Aws,yes,no,46.5832,9.7904,CH,2010,1978,NA,GRA,NA,2.3,918,NA,NA,gentle,Alp Weissenstein,CarboExtreme,extensive mgmt (grazed)
+FLX_BE-Vie_FLUXNET2015_FULLSET_1996-2020_beta-3.zip,10.18160/DF9X-QMRK,https:/meta.icos-cp.eu/resources/stations/ES_BE-Vie,16,BE-Vie,yes,yes,50.3049,5.9981,BE,1996,493,Oceanic subtropical highland (Cfb),MF,8.2,7.8,1062,915.6,96.4,medium,Vielsalm,ICOS_2,"mainly beech & douglas fir, thinned every 6y"
+FLX_BE-Maa_FLUXNET2015_FULLSET_2016-2020_beta-3.zip,10.18160/DZGF-E5WW,https:/meta.icos-cp.eu/resources/stations/ES_BE-Maa,62,BE-Maa,yes,yes,50.9799,5.6319,BE,2020,87,Oceanic subtropical highland (Cfb),CSH,10.3,10.3,839,839.1,116.7,gentle,Maasmechelen,ICOS_2,400ha heathland dominated by Calluna vulgaris L.
+FLX_BE-Lon_FLUXNET2015_FULLSET_2004-2020_beta-3.zip,10.18160/46P3-WT1D,https:/meta.icos-cp.eu/resources/stations/ES_BE-Lon,63,BE-Lon,yes,yes,50.5516,4.7462,BE,2004,167,Oceanic subtropical highland (Cfb),CRO,10.2,10,800,742.6,110.2,gentle,Lonzee,ICOS_2,"4y rotation (sugarbeet, winter wheat, potato, winter wheat)"
+FLX_BE-Lcr_FLUXNET2015_FULLSET_2019-2020_beta-3.zip,10.18160/9CZ8-7Q8Q,https:/meta.icos-cp.eu/resources/stations/ES_BE-Lcr,53,BE-Lcr,yes,yes,51.1122,3.8504,BE,NA,6,NA,DBF,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_BE-Dor_FLUXNET2015_FULLSET_2011-2020_beta-3.zip,10.18160/P7JG-DVR4,https:/meta.icos-cp.eu/resources/stations/ES_BE-Dor,21,BE-Dor,yes,yes,50.3114,4.9686,BE,NA,247,NA,GRA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+FLX_BE-Bra_FLUXNET2015_FULLSET_1996-2020_beta-3.zip,10.18160/YVBQ-K6WF,https:/meta.icos-cp.eu/resources/stations/ES_BE-Bra,30,BE-Bra,yes,yes,51.3076,4.5198,BE,1996,16,Oceanic subtropical highland (Cfb),ENF,10.5,9.8,750,920.7,112.5,flat,Brasschaat,ICOS_1,experimental scots pine forest surrounded by broadleaf species

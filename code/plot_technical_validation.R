@@ -60,8 +60,9 @@ plot_technical_validation <- function() {
       stat_summary(fun.data = "mean_cl_boot", geom = "pointrange", color = "black") +
       theme_cowplot() +
       xlab(NULL)  + ylab(paste0(metric_of_interest)) +
-      scale_y_continuous(expand = c(0,0.05)) +
-      expand_limits(y = 0)
+      background_grid(major = "y") +
+      {if(metric_of_interest == "nRMSE") scale_y_continuous(limits = c(0,0.25), expand = c(0,0))} + 
+      {if(metric_of_interest == "R2") scale_y_continuous(limits = c(0,1), expand = c(0,0))}
   }
   
   plot_comparison <- function(var_of_interest, zero_lines = TRUE, coords_obs_pred = TRUE) {
@@ -74,30 +75,30 @@ plot_technical_validation <- function() {
       theme_cowplot() +
       scale_fill_continuous(type = "viridis") +
       geom_abline(linetype = "dashed") +
-      {if(coords_obs_pred) tune::coord_obs_pred()} 
+      {if(coords_obs_pred) tune::coord_obs_pred()}
   }
   
-  a <- plot_comparison("TN") + xlab("ICOS TN [°C]") + ylab("E-OBS TN [°C]")
-  b <- plot_comparison("TX") + xlab("ICOS TX [°C]") + ylab("E-OBS TX [°C]")
+  a <- plot_comparison("TN") + xlab(expression("ICOS TN " (degree*C))) + ylab(expression("E-OBS TN " (degree*C)))
+  b <- plot_comparison("TX") + xlab(expression("ICOS TX " (degree*C))) + ylab(expression("E-OBS TX " (degree*C)))
   c <- plot_comparison("PREC", zero_lines = F, coords_obs_pred = F) +
     scale_x_continuous(trans = "pseudo_log", limits = c(0.01,256), expand = c(0,0), breaks = c(1,5,25,50, 100,250), 
                        labels = c(1,5,25,"","",250)) +
     scale_y_continuous(trans = "pseudo_log", limits = c(0.01,256), expand = c(0,0), breaks = c(1,5,25,50,100,250)) +
-    coord_equal() + xlab("ICOS PREC [mm]") + ylab("- PREC [mm]")
-  d <- plot_comparison("PET", zero_lines = F) + xlab("ICOS PET [mm]") + ylab("E-OBS PET [mm]") +
+    coord_equal() + xlab("ICOS PREC (mm)") + ylab("E-OBS PREC (mm)")
+  d <- plot_comparison("PET", zero_lines = F) + xlab("ICOS PET (mm)") + ylab("E-OBS PET (mm)") +
     scale_x_continuous(expand = c(0,0)) +
     scale_y_continuous(expand = c(0,0))
   e <- plot_comparison("AET", coords_obs_pred = F) +
     scale_x_continuous(trans = "pseudo_log", limits = c(-1,10), expand = c(0,0), breaks = c(0,1,2,5,10)) +
     scale_y_continuous(trans = "pseudo_log", limits = c(-1,10), expand = c(0,0), breaks = c(0,1,2,5,10)) +
-    coord_equal() + xlab("ICOS AET [mm]") + ylab("mHM AET [mm]")
-  f <- plot_comparison("zSM") + xlab("ICOS zSM") + ylab("mHM zSM")
+    coord_equal() + xlab("ICOS AET (mm)") + ylab("mHM AET (mm)")
+  f <- plot_comparison("zSM") + xlab("ICOS zSM 30cm") + ylab("mHM zSM_top")
   
-  ppA <- cowplot::plot_grid(a,b,c,d,e,f, nrow = 2, labels = "AUTO")
+  ppA <- cowplot::plot_grid(a,b,c,d,e,f, nrow = 2, labels = "auto")
   
   g <- plot_metrics("nRMSE")
   h <- plot_metrics("R2")
-  ppB <- plot_grid(g, h, nrow = 1, labels = c("G","H"))
+  ppB <- plot_grid(g, h, nrow = 1, labels = c("g","h"))
   
   pp_final <- plot_grid(ppA, ppB, rel_heights = c(3,1), nrow = 2)
   
