@@ -17,6 +17,7 @@ library(sf)
 library(introdataviz)
 library(ggdist)
 library(ggh4x)
+library(tools)
 
 sapply(list.files("code", full.names = T), source)
 
@@ -24,10 +25,10 @@ sapply(list.files("code", full.names = T), source)
 ### DATA PROCESSING
 ### --------------------------------------------------------------------------
 
-write_eobs_csv_from_nc(start_year = 1950,
-                       end_year = 2021,
-                       input = "data/EOBS/nc_input/",
-                       output = "data/EOBS/csv_output/")
+#write_eobs_csv_from_nc(start_year = 1950,
+#                       end_year = 2021,
+#                       input = "data/EOBS/nc_input/",
+#                       output = "data/EOBS/csv_output/")
 
 # read list of sites
 list_of_sites <- list.files("data/EOBS/csv_output/")
@@ -44,7 +45,7 @@ sdi_helper_fun <- function(x, SDI) {
 
 lapply(list_of_sites, sdi_helper_fun, SDI = "SPEI")
 lapply(list_of_sites, sdi_helper_fun, SDI = "SPI")
-lapply(list_of_sites, sdi_helper_fun, SDI = "SMI")
+lapply(list_of_sites, sdi_helper_fun, SDI = "SSMI")
 
 ## PREPARE WarmWinter2020 ICOS DATA
 # dont run, already aggregated

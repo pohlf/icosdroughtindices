@@ -7,37 +7,20 @@ plot_swc_performance_comparison <- function() {
                             select(Date, site, SM_top, SM_full)) %>% 
     bind_rows() 
   
-  path <- "data/SDI/SMI/"
+  path <- "data/SDI/SSMI/"
   files <- list.files(path)
-  df_smi <- future_lapply(files, function(x) read_csv(paste0(path,x)) %>% 
-                            mutate(site = str_remove(file_path_sans_ext(x), "SMI_")) %>%
-                            select(Date, site, SMI_top, SMI_full)) %>% 
-    bind_rows() 
-  
-  
-  path <- "data/SDI/SPEI/"
-  files <- list.files(path)
-  df_spei <- future_lapply(files, function(x) read_csv(paste0(path,x)) %>% 
-                             mutate(site = str_remove(file_path_sans_ext(x), "SPEI_")) %>%
-                             select(Date, site, SPEI_90, SPEI_365)) %>% 
-    bind_rows() 
-  
-  path <- "data/SDI/SPI/"
-  files <- list.files(path)
-  df_spi <- future_lapply(files, function(x) read_csv(paste0(path,x)) %>% 
-                            mutate(site = str_remove(file_path_sans_ext(x), "SPI_")) %>%
-                            select(Date, site, SPI_90, SPI_365)) %>% 
+  df_SSMI <- future_lapply(files, function(x) read_csv(paste0(path,x)) %>% 
+                            mutate(site = str_remove(file_path_sans_ext(x), "SSMI_")) %>%
+                            select(Date, site, SSMI_top, SSMI_full)) %>% 
     bind_rows() 
   
   
   df_ww20 <- read_csv("data/ICOS/WW20_dd.csv") 
   
-  df <- df_smi %>% 
-    left_join(df_spei) %>%
-    left_join(df_spi) %>%
+  df <- df_SSMI %>% 
     left_join(df_eobs) %>%
     left_join(df_ww20)
-  rm(df_spi, df_spei, df_smi, df_eobs)
+  rm(df_SSMI, df_eobs)
   
   fit_rcs <- function(icos_site, target, k) {
     if(target == "GPP") {
@@ -57,12 +40,8 @@ plot_swc_performance_comparison <- function() {
              target,
              SW_IN = SW_IN_F,
              SWC = SWC_F_MDS_3, 
-             SM_top, SMI_top,
-             SM_full, SMI_full,
-             SPEI_90, 
-             SPEI_365,
-             SPI_90, 
-             SPI_365) %>%
+             SM_top, SSMI_top,
+             SM_full, SSMI_full) %>%
       drop_na()
     
     if(nrow(data) > 50) {
@@ -159,8 +138,6 @@ plot_swc_performance_comparison <- function() {
     facet_wrap(~target, nrow = 1)
   
   plot_out <- plot_grid(A,B, ncol = 1, labels = "auto")  
-  save_plot("plots/swc30_predictor_performance.eps", plot_out, bg = "white", base_width = 11, base_height = 7)
+  save_plot("plots/swc30_predictor_performance.eps", plot_out, bg = "white", base_width = 11, base_height = 6)
   return(NULL)
 }
-
-

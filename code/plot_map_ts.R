@@ -24,10 +24,10 @@ plot_map_ts <- function(station) {
   plot_ts <- function(var) {
     if(var == "SM") {
       df_plot <- df %>% 
-        select(Date, Model = SWC_mhm, ICOS = SWC_icos, SDI = SMI_200) %>%
+        select(Date, Model = SWC_mhm, ICOS = SWC_icos, SDI = SSMI_full) %>%
         distinct()
       title_A <- "Soil moisture"
-      title_B <- "SMI"
+      title_B <- "SSMI"
       unit <- "[vol. %]"
     } else if (var == "Prec") {
       df_plot <- df %>% 
@@ -104,5 +104,25 @@ plot_map_ts <- function(station) {
            linetype = guide_legend(override.aes = list(size = 2)))  
   legend <- get_legend(legend_plot)
   save_plot("plots/map_legend.png", legend, dpi = 500)
+  
+  legend2 <- get_legend(df_plot %>%
+    ggplot(aes(Date, SSMI)) +
+    geom_tile(width = 2, height = 5, mapping = aes(fill = SDI, y = 0)) +
+    theme_cowplot() +
+    scale_fill_gradientn(NULL, 
+                         colors = brewer.pal(11, "RdBu"), 
+                         limits = c(-2.5,2.5),
+                         #label = signs_format(accuracy = 1, add_plusses = TRUE),
+                         label = signs::signs_format(accuracy = 1),
+                         na.value = NA) +
+    xlab(NULL) + ylab(NULL) +
+    theme_cowplot() +
+    scale_x_date(expand = c(0,0)) +
+    scale_y_continuous(expand = c(0,0)) +
+    theme(legend.position = "top", 
+          legend.key.width= unit(3, 'cm'),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_blank()))
+  save_plot("plots/map_legend2.png", legend2, dpi = 500, bg = "transparent")
   return(NULL)
 }

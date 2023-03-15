@@ -78,7 +78,7 @@ calculate_SDI <- function(icos_site, SDI, input_path) {
   file <- paste0(input_path,icos_site)
   df <- read_csv(file)
 
-  agg <- c(seq(5,365,5),seq(370,720,10))
+  agg <- c(seq(5,365,5),seq(370,730,10))
   n <- 365
   start <- min(year(df$Date))
   end <- max(year(df$Date))
@@ -112,7 +112,7 @@ calculate_SDI <- function(icos_site, SDI, input_path) {
       list <- future_lapply(1:365, kde_per_doy_prec)
       dummy <- bind_rows(dummy, bind_rows(list))
     }
-  } else if(SDI == "SMI") {
+  } else if(SDI == "SSMI") {
     
     for(i in c("top","full")){
       print(c("aggregation time:", i))
@@ -131,7 +131,7 @@ calculate_SDI <- function(icos_site, SDI, input_path) {
     pivot_wider(names_from = c(name, agg))
   
   df <- left_join(df, dummy, by = "Date") %>%
-    select(Date, starts_with("SMI"), starts_with("SPI"), starts_with("SPEI"))
+    select(Date, starts_with("SSMI"), starts_with("SPI"), starts_with("SPEI"))
   
   file_out <- paste0(SDI,"_",str_remove(icos_site, "_input"))
   
